@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: 장혜준 (Jang Hyejun)
+bio: 생각하기를 좋아하고, 예술적인 개발을 하기위해 공부합니다.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: 장혜준 블로그
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: http://jhyejun.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -34,23 +34,23 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: Jhyejun
+# twitter: mytwitter
 # google: mygoogle
-# instagram: myinstagram
+instagram: Jhyejun
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: jhyejun
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: hyejun417@gmail.com
 
 authors:
     johndoe:
