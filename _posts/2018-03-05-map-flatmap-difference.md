@@ -1,5 +1,5 @@
 ---
-title: "map, flatmap 무엇이 다를까?"
+title: "[Swift] map, flatmap 무엇이 다를까?"
 layout: post
 hidden: false
 date: 2018-03-05 17:34
