@@ -7,8 +7,6 @@ image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - swift
-- map
-- flatmap
 star: true
 category: blog
 author: jhyejun

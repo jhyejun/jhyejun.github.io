@@ -1,6 +1,6 @@
 # main text of home
 name: 장혜준 (Jang Hyejun)
-bio: 생각하기를 좋아하고, 예술적인 개발을 하기위해 공부합니다.
+bio: It's okay to be normal.
 
 # twitter summary info
 description: 장혜준 블로그
@@ -12,7 +12,7 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: resume/
 
@@ -55,7 +55,7 @@ email: hyejun417@gmail.com
 authors:
     jhyejun:
         name: Hyejun Jang
-        bio: 예술적인 개발을 추구하는 개발자
+        bio: It's okay to be normal.
         external-image: false
         picture: assets/images/profile.jpg
         twitter: jhyejun417
@@ -70,14 +70,14 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
