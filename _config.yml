@@ -1,6 +1,6 @@
 # main text of home
 name: 장혜준 (Jang Hyejun)
-bio: It's okay to be normal.
+bio: If you do nothing, you are not alive. Just Do It!
 
 # twitter summary info
 description: 장혜준 블로그
@@ -55,7 +55,7 @@ email: hyejun417@gmail.com
 authors:
     jhyejun:
         name: Hyejun Jang
-        bio: It's okay to be normal.
+        bio: If you do nothing, you are not alive. Just Do It!
         external-image: false
         picture: assets/images/profile.jpg
         twitter: jhyejun417
