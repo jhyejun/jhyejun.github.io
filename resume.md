@@ -3,73 +3,102 @@ title: Resume
 layout: page
 ---
 
-<h1>Jang Hyejun - Résumé</h1>
+# Jang Hyejun - Résumé
 
-<h2>Personal Details</h2>
+## Personal Details
 
-<h4>Email</h4>
-<p>hyejun417@gmail.com</po>
+#### Email
+- **<hyejun417@gmail.com>**
 
-<h4>Website</h4>
-<p>http://jhyejun.com</p>
+#### Website
+- **<http://jhyejun.com>**
 
-<h4>Phone</h4>
-<p>+82 10-6235-9442</p>
-
-
-<h2>Summary</h2>
-
-<h4>Skills</h4>
-<ul class="skill-list">
-	<li>AWS (EC2)</li>
-	<li>HTML</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL</li>
-	<li>Swift</li>
-	<li>Autolayout</li>
-	<li>SnapKit</li>
-</ul>
-
-<h4>Interests</h4>
-<ul class="interest-list">
-	<li>RxSwift</li>
-	<li>TDD</li>
-</ul>
+#### Phone
+- **+82 10-6235-9442**
 
 
-<h2>Education</h2>
-<div class="education-list">
-	<div>
-		<h4>2013 Mar - 2016 Feb</h4>
-		<p>선린인터넷고등학교 정보통신과</p>
-	</div>
-</div>
+## Summary
+
+#### Interests
+- **Mobile application development**
+- **Test Driven Development**
+- **RxSwift**
+
+#### Skills
+- **Coding Languages: C, Python, PHP, Swift**
+- **Web Frameworks: Django, HTML5**
+<!-- - **Web Servers: Ngnix** -->
+- **Cloud Services: AWS**
+- **Mobile Development: iOS(Swift)**
+- **Databases: MySQL, SQLite**
 
 
-<h2>Career</h2>
-<div class="work experience-list">
-	<div>
-		<h4>2015 Sep - 2016 Aug</h4>
-		<p>(주)웹티즌</p>
-	</div>
-</div>
+## Education
+
+#### 2013 - 2016
+- **[Sunrin Internet High School](http://www.sunrint.hs.kr)**<br>
+**Majored in Department of Information and Communication**
 
 
-<h2>Projects</h2>
-<div class="project-list">
-	<div>
-		<h4>Always</h4>
-		<a href="https://github.com/jhyejun">It's me</a>
-	</div>
-</div>
+## Work Experience
+
+#### December 2017 -
+- **Webtizen**<br>
+**System Engineer**
+	- **Server**
+		- **Backup Server**
+		- **CDN**
+
+#### December 2016 - November 2017
+- **ZIPBrothers**<br>
+**Software Engineer**
+	- **iOS Application**
+		- **Swift**
+		- **Storyboard**
+		- **Autolayout**
+		- **[Alamofire](https://github.com/Alamofire/Alamofire)**
+		- **[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)**
+		- **[FSCalendar](https://github.com/WenchaoD/FSCalendar)**
+		- **[JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar)**
+
+#### September 2015 - August 2016
+- **Webtizen**<br>
+**Network Engineer**
+	- **Web Application**
+		- **HTML**
+		- **PHP**
+		- **javascript**
+
+	- **Network**
+		- **UTM**
+		- **VPN**
+		- **NAS**
+		- **Switch**
 
 
-<h2>Activities</h2>
-<div class="activity-list">
-	<div>
-		<h4>2014 July - 2014 Dec</h4>
-		<p>한국정보기술연구원 'Best of the Best' 3기 수료</p>
-	</div>
-</div>
+## Projects
+
+#### April 2018 - 
+- **Bus arrival notification Application**
+	- **iOS Application**
+		- **Swift**
+
+#### September 2017 - November 2017
+- **Anniversary Management Application**<br>
+**Manage anniversaries of people in your address book**
+	- **iOS Application**
+		- **Swift**
+		- **Storyboard**
+		- **Autolayout**
+		- **[Alamofire](https://github.com/Alamofire/Alamofire)**
+		- **[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)**
+		- **[JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar)**
+		- **[KakaoLink](https://developers.kakao.com/docs/android/kakaotalk-link)**
+		- **SQLite**
+	
+
+## Activities
+
+#### July 2014 - December 2014
+- **[Best of the Best](https://www.kitribob.kr)**<br>
+**Certificated mentee. Developed python illegal video classification program**
