@@ -54,8 +54,6 @@ layout: page
 **Software Engineer**
 	- **iOS Application**
 		- **Swift**
-		- **Storyboard**
-		- **Autolayout**
 		- **[Alamofire](https://github.com/Alamofire/Alamofire)**
 		- **[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)**
 		- **[FSCalendar](https://github.com/WenchaoD/FSCalendar)**
@@ -88,8 +86,6 @@ layout: page
 **Manage anniversaries of people in your address book**
 	- **iOS Application**
 		- **Swift**
-		- **Storyboard**
-		- **Autolayout**
 		- **[Alamofire](https://github.com/Alamofire/Alamofire)**
 		- **[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)**
 		- **[JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar)**
