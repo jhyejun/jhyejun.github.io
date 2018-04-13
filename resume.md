@@ -19,10 +19,10 @@ layout: page
 
 ## Summary
 
-#### Interests
+<!-- #### Interests
 - **Mobile application development**
 - **Test Driven Development**
-- **RxSwift**
+- **RxSwift** -->
 
 #### Skills
 - **Coding Languages: C, Python, PHP, Swift**
