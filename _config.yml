@@ -13,10 +13,11 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
+resume-external: false
 resume-url: resume
 
 url: http://jhyejun.com
+base-url: ""
 # your url: http://USERNAME.github.io
 
 permalink: /:categories/:title
