@@ -51,5 +51,5 @@ devny 형 블로그 하는 거 도와준 거 말고는 없다....<br>
 근 이틀 간 스탠포드 iOS 강의 보면서 블로그 포스팅을 한 걸로<br>
 오늘 공부 내용 정리 포스팅을 대신해야겠다<br>
 
-<http://jhyejun.com/blog/method-property/><br>
-<http://jhyejun.com/blog/array-dictionary-string/>
+<http://jhyejun.com/blog/method-property><br>
+<http://jhyejun.com/blog/array-dictionary-string>
