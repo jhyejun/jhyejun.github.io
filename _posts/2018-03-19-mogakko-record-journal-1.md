@@ -49,4 +49,4 @@ description: mogakko record journal
 <br>
 이번에 본 강의를 통해 swift 에서 중요한 개념인 옵셔널을 배웠고<br>
 강의 영상을 참고하며 블로그 포스팅 글을 작성했다.<br>
-<http://jhyejun.com/what-is-an-optional/>
+<http://jhyejun.com/blog/what-is-an-optional/>
