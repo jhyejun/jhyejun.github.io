@@ -74,7 +74,7 @@ width: normal
 projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: false
+about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
