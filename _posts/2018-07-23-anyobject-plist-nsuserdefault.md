@@ -1,5 +1,5 @@
 ---
-title: "[Swift] 클로저에서 weak와 unowned의 사용법"
+title: "[Swift] ARC"
 layout: post
 hidden: false
 date: 2018-07-23 11:12
@@ -8,121 +8,101 @@ tag:
 star: true
 category: blog
 author: jhyejun
-description: explain AnyObject, Plist, NSUserDefault
+description: explain ARC
 ---
 
-### AnyObject
-**AnyObject**는 Objective-C와의 호환을 위해 사용되곤 했다.<br>
-지금도 그렇게 흔히 쓰여 지기는 한다.<br>
+### 자동 참조 계수(Automatic Reference Counting)<br>
+Swift는 앱의 메모리 사용을 추적하고 관리하는 자동 참조 계수(ARC)를 사용.<br>
+대부분의 경우에 메모리 작업은 잘 작동하며, 메모리 관리를 생각할 필요 없다.<br>
+ARC는 인스턴스가 더이상 필요가 없을 때 클래스 인스턴스에 사용된 메모리를 자동적으로 해제한다.<br>
 
-그 전에 Objective-C에서 **id**라고 하는 매우 중요한 타입에 대해서 짚고 가야한다.<br>
-id는 모르는 클래스(어떤 타입인지 모르는)의 객체에 대한 포인터 주소를 뜻하는데<br>
-뭐든 될 수 있는, 매우 열려있는 타입을 뜻한다는 것이다.<br>
+몇가지 경우에 ARC는 메모리 순서에서 코드 부분들의 사이 관계에 대한 더 많은 정보가 필요하다.<br>
 
-하지만 스위프트에서는 그렇게 하지 않는다.<br>
-스위프트에서는 타입을 분명하게 지정해주어야 하는데<br>
-Objective-C에서 사용하는 iOS의 모든 API를 사용해야하기 때문에<br>
-**AnyObject**라고 하는 타입이 도입되었다.<br>
+참조 계수는 클래스의 인스턴스에만 적용되며,<br>
+구조체와 열거형은 값 타입이지 참조 타입이 아니며 참조를 저장 못하고 넘기지 못한다.<br>
 
-스위프트에서 **AnyObject**도 Objective-C에서의 **id**와 같이<br>
-모르는 클래스(어떤 타입인지 모르는)의 객체에 대한 포인터 주소를 뜻한다.<br>
-참고로 **AnyObject**는 클래스에 대한 객체에서만 사용되고<br>
-구조체에는 사용되지 않는다.<br>
 
-그래서 객체에 대한 포인터를 갖고 싶은데 그게 무슨 타입인지 모르거나<br>
-다른 사람이 무슨 타입인지 알지 못하게 하고 싶을 때 사용한다.<br>
-<br>
+### ARC 작업 방법(How ARC Works)
 
-언제 **AnyObject**가 쓰이게 되는지 확인할 필요가 있다.<br>
+매시간 클래스의 새로운 인스턴스를 만들며,<br>
+ARC는 인스턴스에 대한 정보를 메모리 덩어리에 저장하기 위해 할당한다.<br>
+메모리는 인스턴스의 타입 정보와 저장 속성에 할당된 인스턴스 값을 쥔다.<br>
 
-메소드 인자의 타입이 적어도 두개 이상일 때<br>
-예를 들어, 하나의 뷰컨트롤러부터 다른 뷰컨트롤러로 화면을 전환을 준비하는<br>
-prepareForSegue 라는 함수가 있는데<br>
-이 메소드의 sender(전환이 실행되는 객체)는 수많은 종류의 타입이 될 수 있다.<br>
-클릭할 수 있는 버튼이 되거나 테이블의 한 줄이 될 수도 있고<br>
-컨트롤러 안에 커스텀한 코드가 될지도 모른다.<br>
+게다가 인스턴스가 더이상 필요가 없으면 ARC는 인스턴스에<br>
+사용된 메모리를 해제하고 메모리는 다른 목적을 위해 사용되어진다.<br>
+더 이상 필요가 없을 때 메모리에는 클래스 인스턴스가 공간을 차지하지 않는다는 확신한다.<br>
 
-그래서 prepareForSegue의 sender는 **AnyObject**가 되어야만 한다.<br>
-이게 버튼일지 테이블의 한 줄일지 뭔지 모르니까...<br>
-어떤 객체가 많은 타입이 될 수 있어서 무슨 타입이 될 지 모를 때<br>
-이걸 **AnyObject**라고 타입을 지정해준다.<br>
+그러나 ARC는 사용중에 인스턴스를 할당 해제하면<br>
+인스턴스의 속성 접근이나 인스턴스 메소드 호출이 더이상 가능하지 않다.<br>
+대신에 인스턴스를 접근하려고 하면, 앱은 크래쉬가 날 수 있다.<br>
 
-그럼 어떻게 **AnyObject** 타입을 제대로 사용할 수 있을까?<br>
-이게 무슨 타입이 될지 모르기 때문에 아는 타입으로 변환을 해줘야 한다.<br>
-근데 변환하려고 할 때 그 타입이 아닐 수도 있기 때문에<br>
-변환하는 게 가능하지 않을 수도 있다.<br>
+인스턴스가 필요한 동안에는 사라지지 않게 하기 위해선,<br>
+ARC는 많은 속성, 상수 그리고 변수가 현재 각 클래스 인스턴스를 참조하기 위해 추적한다.<br>
+ARC는 적어도 하나의 활성화 참조가 있는 이상 인스턴스는 할당 해제되지 않고 계속 존재한다.<br>
 
-그래서 이 상황에 대비하기 위해 스위프트에서는 **as** 키워드를 사용한다.<br>
-이 키워드는 다른 타입으로 변환하는 걸 **'시도'** 하는 표현이다.<br>
-다시 말해서 AnyObject를 어떤 타입**'으로서(as)'** 대해보겠다는거다.<br>
+속성, 상수 또는 변수에 클래스 인스턴스를 할당할 때,<br>
+속성, 상수 또는 변수는 인스턴스에 강한 참조를 만든다.<br>
+“강한” 참조라는 참조는 인스턴스르 강하게 유지하며,<br>
+강한 참조가 남아있다면 해당 인스턴스를 할당 해제하지 못한다.<br>
 
-이 키워드는 선택적으로 대하기 때문에 옵셔널을 반환할 경우가 있다.<br>
-그래서 **as**를 if let 구문을 통해서 사용한다.<br>
+
+### ARC 사용(ARC in Action)
 
 ```
-let ao: Anyobject = ...
-if let foo = ao as? SomeClass {
-    // we can use foo and know that it is of type SomeClass in here
+class Person {
+    let name: String
+    init(name: String) {
+        self.name = name
+        println("\(name) is being initialized")
+    }
+    deinit {
+        println("\(name) is being deinitialized")
+    }
 }
-```
+````
 
-이 예제 코드는
-ao 라는 AnyObject 타입의 지역변수가 하나 있는데<br>
-어떤 클래스로 할당이 될지는 알 방법이 없다.<br>
-하지만 만약 ao가 SomeClass라면 사용하려고한다.<br>
-그래서 ao는 SomeClass 일지도 모르니 SomeClass가 맞는지부터 확인하고<br>
-만약 맞다면 foo에 SomeClass인 ao를 저장해서 사용하는 예제 코드이다.<br>
+Person 클래스는 이니셜라이저를 가지며 인스턴스의 name 속성을 설정하고<br>
+초기화 진행중이다고 표시하는 메시지를 출력한다.<br>
+Person 클래스는 디이니셜라이저를 가지며 클래스의 인스턴스가 해제될 때 메시지를 출력한다.<br>
 
-이게 조건에 맞다면 **AnyObject**를 특정한 클래스로 **'캐스팅'** 하는 방법이다.<br>
-
----
-
-### Property List
-**AnyObject**를 사용하는 또 다른 곳은 **Property List** 에서 사용한다.<br>
-**Property List**는 기본적으로<br>
-Array, Dictionary, String, Double, Int, NSData, NSDate의 조합으로 되어는데<br>
-이 클래스들로 데이터 구조를 만들면 **Property List**가 생긴 것이다.<br>
-그러니까 **Property List**는 이건 그냥 데이터 구조를 표현하기 위한 단어일 뿐이다.<br>
-그런데 이 때 의문이 생길 수 있다.<br>
-**AnyObject**는 구조체가 아니라 클래스로만 캐스팅이 되야만 하는데<br>
-구조체인 String, Array, Dictionary, Double, Int 이것들이<br>
-어떻게 AnyObject가 되어서 **Property List**에 들어갈 수 있는지 궁금해 할 수 있다.<br>
-
-이거에 대한 해답은 **'브리징'**이다.<br>
-이것들이 Objective-C로 자동으로 **브리징**되고<br>
-Objective-C 클래스인 NSDictionary, NSArray, NSNumber로 다뤄져서<br>
-AnyObject가 되도록 변경되는 것이다.<br>
-**Property List**는 보이지 않게 전달이 된다.<br>
-그 안을 본다고 해도 Dictionary, Array, String 같은게<br>
-있다는 것만 알고 데이터가 무엇을 의미하는지는 아무것도 모른다.<br>
-그냥 전달되기만 하는거야 이해하기 쉽게 **Property List**를 사용하는 iOS API를 보면 도움이 된다.<br>
-
----
-
-## NSUserDefault
-**NSUserDefault** 라는게 있다.<br>
-**NSUserDefault**가 하는 일은 **Property List**를 받아서<br>
-디스크에 영구적으로 기억되게 만든다.<br>
-그래서 앱을 종료했다가 다시 켜서 봐도 그대로 있을 수 있다.<br>
-그러니까 기본적으로 **Property List**의 데이터 베이스인 셈인 것이다.<br>
-영어사전같이 영어 전체를 저정해야하는 큰 데이터에 사용하면 안되고<br>
-'설정'같은 작은 것에만 사용해야 한다.<br>
-제공되는 API로 간단하게 표현되는데<br>
+다음은 Person 타입의 세 개 변수를 정의하여 다양한 참조를 설정 사용하는 예제이다.<br>
 
 ```
-setObject(AnyObject, forKey: String)
+var reference1: Person?
+var reference2: Person?
+var reference3: Person?
 ```
 
-setObject로 **Property List**를 저장하고 다시 가져올 수도 있다.<br>
-**NSUserDefault**는 그 안에 Dictionary, Array, String이<br>
-있다는 것만 알지 구체적으로 무슨 데이터가 들었는지는 모른다.<br>
-그럼 어떻게 **NSUserDefault**를 사용할까?<br>
-클래스 메소드 혹은 타입 메소드를 공유해서 사용할 것을 새로 만들어서 사용한다.<br>
-**NSUserDefault.standardUserDefualt()**라고 치면<br>
-**standardUserDefault**의 공유되는 인스턴스를 만들 수 있다.<br>
-그리고 특정한 **Property List**를 가져오고<br>
-데이터를 수정하게 되면 자동으로 저장이 가능하다.
+변수 중 첫번째는 Person 인스턴스를 만들어 할당한다.<br>
 
-<br>
-이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 영상을
-참고로 하여 작성된 포스팅입니다.
+```
+reference1 = Person(name: "John Appleseed")
+// prints "John Appleseed is being initialized"
+````
+
+Person 클래스의 이니셜라이저가 호출되는 시점에 메시지를 출력하는데,<br>
+이는 초기화가 확실하게 되었음을 말한다.<br>
+
+새로운 Person 인스턴스가 reference1 변수에 할당되었기 때문에,<br>
+reference1에 새로운 Person 인스턴스가 강력참조로 된다.<br>
+ARC는 Person 인스턴스가 메모리에서 유지되고 할당 해제되지 않도록 한다.<br>
+
+다음은 같은 Person 인스턴스를 나머지 두개의 변수에 할당한다.<br>
+
+```
+reference2 = reference1
+reference3 = reference1
+````
+
+이제 하나의 Person 인스턴스에 세 개의 강한 참조가 있다.<br>
+
+만약 강한 참조 중 두개를 nil로 할당하여 깨진다면,<br>
+하나의 강력 참조만 남고 Person 인스턴스는 할당 해제되지 않는다.<br>
+
+ARC는 세번째 강력 참조가 깨지기 전까지 Person 인스턴스가 할당 해제되지 않고,<br>
+세변째 변수에 nil로 정리하면 Person 인스턴스는 할당 해제 된다.<br>
+
+```
+reference3 = nil
+// prints "John Appleseed is being deinitialized"
+```
