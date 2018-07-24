@@ -1,5 +1,5 @@
 ---
-title: "[Swift] 클로저에서 weak와 unowned의 사용법"
+title: "[Swift] weak와 unowned의 사용법"
 layout: post
 hidden: false
 date: 2018-07-24 02:23
@@ -8,8 +8,10 @@ tag:
 star: true
 category: blog
 author: jhyejun
-description: how to use weak and unowned in closure
+description: how to use weak and unowned
 ---
+
+# 현재 내용 정리 중에 있습니다.
 
 강력 순환 참조(Strong Reference Cycle)를 벗어나기 위해<br>
 약한 참조(weak reference)와 미소유 참조(unowned reference)를 사용합니다.<br>
