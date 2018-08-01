@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'jemoji'
 gem 'github-pages'
 gem 'html-proofer'
 # gem 'jekyll-admin'
