@@ -91,6 +91,7 @@ class Customer {
 	init(name: String) {
 		self.name = name
 	}
+
 	deinit { println("\(name) is being deinitialized") }
 }
  
@@ -107,5 +108,7 @@ class CreditCard {
 }
 ```
 
-**클로저에서의 강한 순환 참조와 강한 순환 참조 해결법**은<br>
+**클래스 인스턴스 사이에서의 강한 순환 참조** 뿐만 아니라<br>
+클로저에서도 강한 순환 참조가 발생할 수 있는데<br>
+**클로저에서의 강한 순환 참조가 발생하는 경우와 강한 순환 참조 해결법**은<br>
 [클로저에서의 강한 순환 참조]({{ site.url }}/blog/strong-reference-cycles-in-closure)에서 알 수 있다.
