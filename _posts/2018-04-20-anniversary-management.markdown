@@ -1,5 +1,5 @@
 ---
-title: ":calendar: 기념일 관리 앱"
+title: ":calendar: 기념일 관리 앱 :+1:!"
 layout: post
 date: 2018-04-20 21:25
 tag:
@@ -14,8 +14,9 @@ author: jhyejun
 externalLink: false
 ---
 
-# :calendar: 기념일 관리 앱
+# :calendar: 기념일 관리 앱 :+1:!
 내 지인들의 기념일을 저장해서 관리해주는 앱 (외주)
+:+1:!
 
 
 ## About

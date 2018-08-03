@@ -1,5 +1,5 @@
 ---
-title: "[Swift] 클로저에서의 강한 순환 참조"
+title: "[Swift] 클로저에서의 강한 순환 참조 :+1:!"
 layout: post
 hidden: false
 date: 2018-08-01 01:53
@@ -12,6 +12,7 @@ description: strong reference cycles in closure
 ---
 
 ### 클로저에서의 강한 순환 참조
+:+1:!
 **클래스처럼 클로저는 참조 타입이기 때문에 강한 순환 참조가 발생**할 수 있다.<br>
 클래스 인스턴스의 프로퍼티에 클로저를 할당 할 때<br>
 **클로저에 참조를 할당하기 때문에 강한 순환 참조가 발생**할 수 있고,<br>
