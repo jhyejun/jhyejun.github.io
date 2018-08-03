@@ -18,7 +18,6 @@ resume-external: false
 resume-url: resume
 
 url: http://jhyejun.com
-base-url: {{ site. url }}
 # your url: http://USERNAME.github.io
 
 permalink: /:categories/:title
