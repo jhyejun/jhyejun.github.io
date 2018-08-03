@@ -18,9 +18,10 @@ resume-external: false
 resume-url: resume
 
 url: http://jhyejun.com
+base-url: ""
 # your url: http://USERNAME.github.io
 
-permalink: /:title
+permalink: /:categories/:title
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-123372756-1'
