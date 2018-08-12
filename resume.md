@@ -42,12 +42,18 @@ layout: page
 
 ## Work Experience
 
-#### December 2017 -
+<!-- #### September 2018 -
+- **[Estmob](https://send-anywhere.com/ko/product)**
+**iOS Developer**
+	- **iOS Application** -->
+
+#### December 2017 - August 2018
 - **Webtizen**<br>
 **System Engineer**
 	- **Server**
 		- **Backup Server**
 		- **CDN**
+		- **Server maintenance***
 
 #### December 2016 - November 2017
 - **ZIPBrothers**<br>
@@ -92,6 +98,10 @@ layout: page
 		- **[KakaoLink](https://developers.kakao.com/docs/android/kakaotalk-link)**
 		- **SQLite**
 	
+
+## Open Source Projects
+- **[Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)**<br>
+**Contribute iOS Interview Question**
 
 ## Activities
 
