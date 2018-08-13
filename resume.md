@@ -16,6 +16,7 @@ layout: page
 #### Phone
 - **+82 10-6235-9442**
 
+---
 
 ## Summary
 
@@ -32,6 +33,7 @@ layout: page
 - **Mobile Development: iOS(Swift)**
 - **Databases: MySQL, SQLite**
 
+---
 
 ## Education
 
@@ -39,6 +41,7 @@ layout: page
 - **[Sunrin Internet High School](http://www.sunrint.hs.kr)**<br>
 **Majored in Department of Information and Communication**
 
+---
 
 ## Work Experience
 
@@ -79,6 +82,7 @@ layout: page
 		- **NAS**
 		- **Switch**
 
+---
 
 ## Projects
 
@@ -97,11 +101,14 @@ layout: page
 		- **[JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar)**
 		- **[KakaoLink](https://developers.kakao.com/docs/android/kakaotalk-link)**
 		- **SQLite**
-	
+
+---
 
 ## Open Source Projects
 - **[Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)**<br>
 **Contribute iOS Interview Question**
+
+---
 
 ## Activities
 
