@@ -56,7 +56,7 @@ layout: page
 	- **Server**
 		- **Backup Server**
 		- **CDN**
-		- **Server maintenance***
+		- **Server maintenance**
 
 #### December 2016 - November 2017
 - **ZIPBrothers**<br>
@@ -91,8 +91,16 @@ layout: page
 	- **iOS Application**
 		- **Swift**
 
+#### April 2018 -
+- **[Check Military service exception TO Application]({{ site.url }}/project/military-to)**
+	- **iOS Application**
+		- **Swift**
+		- **[Then](https://github.com/devxoul/Then)**
+		- **[CSV.swift](https://github.com/yaslab/CSV.swift)**
+		- **[RealmSwift](https://github.com/realm/realm-cocoa)**
+
 #### September 2017 - November 2017
-- **Anniversary Management Application**<br>
+- **[Anniversary Management Application]({{ site.url }}/project/anniversary-management)**<br>
 **Manage anniversaries of people in your address book**
 	- **iOS Application**
 		- **Swift**
@@ -105,8 +113,8 @@ layout: page
 ---
 
 ## Open Source Projects
-- **[Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)**<br>
-**Contribute iOS Interview Question**
+- **Interview_Question_for_Beginner**<br>
+**[Contribute iOS Interview Question (Memory Management - ARC)](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/iOS)**
 
 ---
 
