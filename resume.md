@@ -45,10 +45,10 @@ layout: page
 
 ## Work Experience
 
-<!-- #### September 2018 -
+#### September 2018 -
 - **[Estmob](https://send-anywhere.com/ko/product)**
 **iOS Developer**
-	- **iOS Application** -->
+	- **iOS Application**
 
 #### December 2017 - August 2018
 - **Webtizen**<br>
