@@ -113,8 +113,8 @@ layout: page
 ---
 
 ## Open Source Projects
-- **Interview_Question_for_Beginner**<br>
-**[Contribute iOS Interview Question (Memory Management - ARC)](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/iOS)**
+- **[Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)**<br>
+**Contribute iOS Interview Question (Memory Management - ARC)**
 
 ---
 
