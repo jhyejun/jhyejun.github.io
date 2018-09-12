@@ -36,9 +36,9 @@ externalLink: false
 
 
 ## Used Open Source
-- `Then` : https://github.com/devxoul/Then
-- `CSV.swift` : https://github.com/yaslab/CSV.swift
-- `RealmSwift` : https://github.com/realm/realm-cocoa
+- `Then` : <https://github.com/devxoul/Then>{:target="_blank"}
+- `CSV.swift` : <https://github.com/yaslab/CSV.swift>{:target="_blank"}
+- `RealmSwift` : <https://github.com/realm/realm-cocoa>{:target="_blank"}
 
 
 ## Update

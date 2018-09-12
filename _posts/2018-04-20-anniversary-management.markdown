@@ -30,7 +30,7 @@ externalLink: false
 
 
 ## Used Open Source
-- `Alamofire` : https://github.com/Alamofire/Alamofire
-- `SwiftyJSON]`: https://github.com/SwiftyJSON/SwiftyJSON
-- `JTAppleCalendar` : https://github.com/patchthecode/JTAppleCalendar
-- `KakaoLink` : https://developers.kakao.com/docs/android/kakaotalk-link
+- `Alamofire` : <https://github.com/Alamofire/Alamofire>{:target="_blank"}
+- `SwiftyJSON]`: <https://github.com/SwiftyJSON/SwiftyJSON>{:target="_blank"}
+- `JTAppleCalendar` : <https://github.com/patchthecode/JTAppleCalendar>{:target="_blank"}
+- `KakaoLink` : <https://developers.kakao.com/docs/android/kakaotalk-link>{:target="_blank"}
