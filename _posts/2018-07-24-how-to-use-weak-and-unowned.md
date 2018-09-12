@@ -21,7 +21,7 @@ Swift는 클래스 타입의 프로퍼티로 작업할 때<br>
 **미소유 참조**는 다른 인스턴스가 같은 생명주기를 가지거나 더 길게 유지 될 때 사용한다.<br>
 
 **강한 순환 참조**는 이전 게시글인<br>
-[메모리 관리 ARC]({{ site.url }}/blog/memory-management-arc)에서 알 수 있다.
+[메모리 관리 ARC]({{ site.url }}/blog/memory-management-arc){:target="_blank"}에서 알 수 있다.
 
 ---
 
@@ -111,4 +111,4 @@ class CreditCard {
 **클래스 인스턴스 사이에서의 강한 순환 참조** 뿐만 아니라<br>
 클로저에서도 강한 순환 참조가 발생할 수 있는데<br>
 **클로저에서의 강한 순환 참조가 발생하는 경우와 강한 순환 참조 해결법**은<br>
-[클로저에서의 강한 순환 참조]({{ site.url }}/blog/strong-reference-cycles-in-closure)에서 알 수 있다.
+[클로저에서의 강한 순환 참조]({{ site.url }}/blog/strong-reference-cycles-in-closure){:target="_blank"}에서 알 수 있다.

@@ -124,5 +124,5 @@ setObject로 **Property List**를 저장하고 다시 가져올 수도 있다.<b
 데이터를 수정하게 되면 자동으로 저장이 가능하다.
 
 <br>
-이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 영상을
+이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/){:target="_blank"}** 영상을
 참고로 하여 작성된 포스팅입니다.

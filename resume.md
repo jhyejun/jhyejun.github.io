@@ -49,7 +49,7 @@ layout: page
 **iOS Developer**
 	- **iOS Application**
 		- **Swift**
-		-**Objective-C**
+		- **Objective-C**
 
 #### December 2017 - August 2018
 - **Webtizen**<br>

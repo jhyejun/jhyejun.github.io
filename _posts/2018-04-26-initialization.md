@@ -119,9 +119,9 @@ image로 예를 들면 UIImage 객체로 let image가 있고<br>
 아마 여기선 if let을 사용할 것이다.
 
 <br>
-이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 영상을
+이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/){:target="_blank"}** 영상을
 참고로 하여 작성된 포스팅입니다.<br>
-그리고 또 **[giftbot님의 Swift init 초기화 이해하기](https://m.blog.naver.com/PostView.nhn?blogId=itperson&logNo=220995098199&categoryNo=103&proxyReferer=https%3A%2F%2Fwww.google.com%2F)**에서도 참고했습니다.<br>
+그리고 또 **[giftbot님의 Swift init 초기화 이해하기](https://m.blog.naver.com/PostView.nhn?blogId=itperson&logNo=220995098199&categoryNo=103&proxyReferer=https%3A%2F%2Fwww.google.com%2F){:target="_blank"}**에서도 참고했습니다.<br>
 
 이 **Initializer** 파트는 너무 어려워서 이해가 잘 안됐다..<br>
 추후에 구글링을 통해서 다시 한번 정리가 필요할 것 같다.

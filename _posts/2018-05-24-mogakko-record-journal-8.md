@@ -23,7 +23,7 @@ description: mogakko record journal
 그래서 나는 편의점에서 간단하게 라면으로 때웠다.<br>
 
 ## **카페**
-### 역삼역 3번출구 **[프라빈 역삼2호점](https://store.naver.com/restaurants/detail?entry=plt&id=32246261)**
+### 역삼역 3번출구 **[프라빈 역삼2호점](https://store.naver.com/restaurants/detail?entry=plt&id=32246261){:target="_blank"}**
 편의점에서 간단하게 끼니를 때우고<br>
 바로 여기로 넘어왔는데 넘어왔을 때는 카페 가운데에<br>
 단체손님이 있어서 시끄러웠다가 단체손님 나가고 나서는<br>
@@ -36,5 +36,5 @@ description: mogakko record journal
 ---
 
 ## **오늘 공부한 내용**
-### **개인프로젝트 [버스 도착정보 알림 앱](https://github.com/jhyejun/WhenComing)** 개발
+### **개인프로젝트 [버스 도착정보 알림 앱](https://github.com/jhyejun/WhenComing){:target="_blank"}** 개발
 - 버스 도착정보 알림 앱

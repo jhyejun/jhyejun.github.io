@@ -18,7 +18,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 강남역 12번출구 한식집 **[강남불백](https://store.naver.com/restaurants/detail?id=35964491)**<br>
+### 강남역 12번출구 한식집 **[강남불백](https://store.naver.com/restaurants/detail?id=35964491){:target="_blank"}**<br>
 모각코 처음 한 날에 여기서 밥을 먹었었는데<br>
 오랜만에 이렇게 오게 되니깐 뭔가 감회가 새로웠다.<br>
 불백집 답게 **불백정식**을 시켰다.<br>
@@ -29,7 +29,7 @@ description: mogakko record journal
 오늘은 밥 1공기 추가해서 배부르고 맛있게 먹었다.<br>
 
 ## **카페**
-### 강남역 12번출구 **[할리스커피 국기원점](https://store.naver.com/restaurants/detail?id=36257335)**
+### 강남역 12번출구 **[할리스커피 국기원점](https://store.naver.com/restaurants/detail?id=36257335){:target="_blank"}**
 오늘은 **강남불백**에서 언덕 위로 좀 올라가면 나오는 **할리스커피**에서 했다.<br>
 여기가 자리도 넓고 괜찮은데 사람들이 좀 많아서 약간은 시끄럽기는 하다.<br>
 하지만 오늘 비 와서 그런지 사람이 별로 없어서 자리를 되게 잘 잡았다.<br>
@@ -40,5 +40,5 @@ description: mogakko record journal
 ---
 
 ## **오늘 공부한 내용**
-### **[Flickr를 이용한 공개피드 앨범 앱](https://github.com/jhyejun/HyAlbum)** 개발 
+### **[Flickr를 이용한 공개피드 앨범 앱](https://github.com/jhyejun/HyAlbum){:target="_blank"}** 개발 
 - Flickr의 공개피드 API를 이용해 이미지를 한장씩 보여주는 간단한 앱

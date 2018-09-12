@@ -18,7 +18,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 역삼역 4번출구 일식당 **[유리카모메](https://store.naver.com/restaurants/detail?id=37005429)**<br>
+### 역삼역 4번출구 일식당 **[유리카모메](https://store.naver.com/restaurants/detail?id=37005429){:target="_blank"}**<br>
 오늘이 말복이라 보양식을 먹을 줄 알았지만,<br>
 일식당에 가기로 되었다.<br>
 외부모습과 내부모습은 진짜 맛집같은 분위기의 식당이었다.<br>
@@ -41,7 +41,7 @@ description: mogakko record journal
 그래도 맛있게 잘 먹었었기에 만족스러웠다.<br>
 
 ## **카페**
-### 역삼역 4번출구 **[할리스커피 역삼테헤란점](https://store.naver.com/restaurants/detail?id=1719973629)**
+### 역삼역 4번출구 **[할리스커피 역삼테헤란점](https://store.naver.com/restaurants/detail?id=1719973629){:target="_blank"}**
 기존에 가던 할리스 커피 말고 다른 할리스 커피로 가게 되었다.<br>
 갑작스럽게 변경된 것이다.<br>
 변경된 이유는 단지 일행들이 길을 건너기 귀찮다는 이유였고,<br>

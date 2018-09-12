@@ -151,5 +151,5 @@ lazy는 변수간 의존성에서 생기는 문제를 극복하는 데에도 쓰
 lazy로 만든 변수가 미리 초기화된 변수를 부를거기 때문이다.<br>
 
 <br>
-이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 영상을
+이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/){:target="_blank"}** 영상을
 참고로 하여 작성된 포스팅입니다.

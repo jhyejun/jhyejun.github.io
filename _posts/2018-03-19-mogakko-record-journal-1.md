@@ -19,7 +19,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 역삼역 3번출구 수제버거집 **[바스버거](https://store.naver.com/restaurants/detail?id=38403519)**<br>
+### 역삼역 3번출구 수제버거집 **[바스버거](https://store.naver.com/restaurants/detail?id=38403519){:target="_blank"}**<br>
 나는 가장 기본 메뉴를 시켜보자는 생각과 추천 조합이라고 나와 있길래 기본 메뉴인<br>
 바스버거에 베이컨, 계란후라이 추가한 세트를 먹었는데<br>
 느끼하지도 않고 적당하게 담백하고 짭짤해서 맛있었고<br>
@@ -28,7 +28,7 @@ description: mogakko record journal
 <br>
 
 ## **카페**
-### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720)**
+### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720){:target="_blank"}**
 개인적으로 할리스를 좋아하는데 가봤던 곳들 중 제일 좋아하는 곳이다.<br>
 (여러군데 많이 안 가봤지만...)<br>
 자리도 넓고 분위기도 좋은데 무엇보다 조용해서 너무 좋은 곳이다.<br>
@@ -41,7 +41,7 @@ description: mogakko record journal
 ---
 
 ## **오늘 공부한 내용**
-### iOS 기초 공부를 위한 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 수강
+### iOS 기초 공부를 위한 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/){:target="_blank"}** 수강
 - 계산기를 만들어보자 11
 - 계산기를 만들어보자 12
 - 옵셔널이 뭐길래
@@ -49,4 +49,4 @@ description: mogakko record journal
 <br>
 이번에 본 강의를 통해 swift 에서 중요한 개념인 옵셔널을 배웠고<br>
 강의 영상을 참고하며 블로그 포스팅 글을 작성했다.<br>
-<http://jhyejun.com/blog/what-is-an-optional>
+<http://jhyejun.com/blog/what-is-an-optional>{:target="_blank"}

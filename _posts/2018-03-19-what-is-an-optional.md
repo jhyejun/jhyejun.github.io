@@ -99,5 +99,5 @@ display.text = s ?? " "
 ```
 
 <br>
-이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 영상을 
+이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/){:target="_blank"}** 영상을 
 참고로 하여 작성된 포스팅입니다.

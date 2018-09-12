@@ -18,7 +18,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 교대역 9번출구 곰탕집 **[이여곰탕](https://store.naver.com/restaurants/detail?id=37686772)**<br>
+### 교대역 9번출구 곰탕집 **[이여곰탕](https://store.naver.com/restaurants/detail?id=37686772){:target="_blank"}**<br>
 정말 오랜만에 하는 모각코다.<br>
 훈련소, 모각코 방학, 회사 회식 등의 이유로<br>
 오랜만에 참석을 하게 됐다.<br>
@@ -34,7 +34,7 @@ description: mogakko record journal
 오랜만에 맛있는 걸 든든하게 먹어서 기분이 너무 좋았다.<br>
 
 ## **카페**
-### 교대역 14번출구 **[르미엘커피 교대점](https://store.naver.com/restaurants/detail?id=21884354)**
+### 교대역 14번출구 **[르미엘커피 교대점](https://store.naver.com/restaurants/detail?id=21884354){:target="_blank"}**
 처음 가보는 교대역의 카페였다.<br>
 일단 24시 카페라는 거 자체가 되게 눈길이 갔다.<br>
 여기는 내가 좋아하는 **콜드브루**가 없길래<br>
@@ -50,7 +50,7 @@ description: mogakko record journal
 ---
 
 ## **오늘 공부한 내용**
-### edwith **[부스트코스 iOS Developer 강좌](http://www.edwith.org/boostcourse-ios)** 수강
+### edwith **[부스트코스 iOS Developer 강좌](http://www.edwith.org/boostcourse-ios){:target="_blank"}** 수강
 - 회원가입 화면 구현 파트 수강 완료
 - 회원가입 프로젝트 개발 진행
 

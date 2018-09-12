@@ -18,7 +18,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 역삼역 8번출구 베트남음식점 **[에머이 역삼점](https://store.naver.com/restaurants/detail?id=1870465379)**<br>
+### 역삼역 8번출구 베트남음식점 **[에머이 역삼점](https://store.naver.com/restaurants/detail?id=1870465379){:target="_blank"}**<br>
 원래는 봉된장이라는 한식집을 가려 했다가 위치를 잘못 알고 있었어서<br>
 결국 **에머이**라는 베트남음식점을 가게 됐다.<br>
 이제까지 먹어본 베트남 음식들은 별로 비싸지 않았기 때문에<br>
@@ -33,7 +33,7 @@ description: mogakko record journal
 모각코에서 저녁 먹으러 가는 곳은 대체로 조금 비싼데 맛있어서 나름 만족스럽다 ㅋㅋㅋ
 
 ## **카페**
-### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720)**
+### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720){:target="_blank"}**
 3줄 요약
 - 오늘도 **콜드 브루**
 - 오늘도 **붸리 나이스 할리스**
@@ -42,7 +42,7 @@ description: mogakko record journal
 ---
 
 ## **오늘 공부한 내용**
-### edwith **[부스트코스 iOS Developer 강좌](http://www.edwith.org/boostcourse-ios)** 수강
+### edwith **[부스트코스 iOS Developer 강좌](http://www.edwith.org/boostcourse-ios){:target="_blank"}** 수강
 - 음원 재생기 애플리케이션 (2강 애플리케이션 만들기까지)
 
 <br>

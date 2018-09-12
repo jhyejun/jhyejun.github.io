@@ -18,7 +18,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 역삼역 3번출구 수제버거집 **[바스버거](https://store.naver.com/restaurants/detail?id=38403519)**<br>
+### 역삼역 3번출구 수제버거집 **[바스버거](https://store.naver.com/restaurants/detail?id=38403519){:target="_blank"}**<br>
 ![Waiting Image](/assets/images/blog/mogakko-record-journal-6/waiting.jpeg){: width="50%" height="50%"}<br>
 오늘은 유난히 사람이 많아서 10분정도 기다렸다.<br>
 저번에는 기본 메뉴를 먹어봤기 때문에 이번엔 좀 비싸고 맛있는 메뉴를 먹어보고 싶었다.<br>
@@ -40,7 +40,7 @@ description: mogakko record journal
 **더블 베이컨 버거**나 **머쉬룸 버거**를 먹어 보고싶다.
 
 ## **카페**
-### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720)**
+### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720){:target="_blank"}**
 오늘도 3줄 요약
 - 오늘도 **콜드 브루**
 - 오늘도 **붸리 나이스 할리스**
@@ -49,7 +49,7 @@ description: mogakko record journal
 ---
 
 ## **오늘 공부한 내용**
-### edwith **[부스트코스 iOS Developer 강좌](http://www.edwith.org/boostcourse-ios)** 수강
+### edwith **[부스트코스 iOS Developer 강좌](http://www.edwith.org/boostcourse-ios){:target="_blank"}** 수강
 - 음원 재생기 애플리케이션 파트 마무리
 
 ### 개인프로젝트 진행

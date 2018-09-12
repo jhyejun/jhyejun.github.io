@@ -52,5 +52,5 @@ flatmap 함수는 map 의 응용버전이라 map 함수 쓰는 상황 중 특수
 
 
 #### 참고 블로그
-<https://soooprmx.com/archives/6784>
-<http://seorenn.blogspot.kr/2015/09/swift-flatmap.html>
+<https://soooprmx.com/archives/6784>{:target="_blank"}<br>
+<http://seorenn.blogspot.kr/2015/09/swift-flatmap.html>{:target="_blank"}

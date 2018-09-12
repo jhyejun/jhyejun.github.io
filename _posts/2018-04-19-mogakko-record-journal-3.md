@@ -19,7 +19,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 역삼역 7번출구 일식당 **[진가와 한국본점](https://store.naver.com/restaurants/detail?id=871189685)**<br>
+### 역삼역 7번출구 일식당 **[진가와 한국본점](https://store.naver.com/restaurants/detail?id=871189685){:target="_blank"}**<br>
 일본면 전문점이기에 면요리를 먹으려 했고,<br>
 면요리 중에서 무엇을 먹을까 메뉴를 고르던 중에<br>
 고기가 들어가 있는 **니꾸(우삽겹)우동**이 눈에 띄었다.<br>
@@ -40,7 +40,7 @@ description: mogakko record journal
 <br>
 
 ## **카페**
-### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720)**
+### 역삼역 3번출구 **[할리스커피 역삼스타](https://store.naver.com/restaurants/detail?id=1579822720){:target="_blank"}**
 역시 역삼역 할리스는 믿고 가는 할리스.<br>
 오늘도 넓었고,<br>
 오늘도 조용했고,<br>

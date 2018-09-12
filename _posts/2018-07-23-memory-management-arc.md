@@ -150,5 +150,5 @@ A와 B가 있는데 **서로 멱살을 잡고(참조)** 있다.<br>
 **이 상황이 바로 강한 순환 참조를 뜻한다.**
 
 **이 강한 순환 참조를 해결하기 위한 방법**은<br>
-다음 게시글인 [weak와 unowned의 사용법]({{ site.url }}/blog/how-to-use-weak-and-unowned)에서<br>
+다음 게시글인 [weak와 unowned의 사용법]({{ site.url }}/blog/how-to-use-weak-and-unowned){:target="_blank"}에서<br>
 확인할 수 있다.<br>

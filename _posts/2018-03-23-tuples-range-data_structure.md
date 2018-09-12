@@ -106,5 +106,5 @@ enum이 기억하고 있는 저장소는 case이며 case에는 연관값이 있�
 (물론 상황에 따라 다르겠지만 간단하게 이렇게 생각해도 될 거 같다.)
 
 <br>
-이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 영상을
+이 포스팅은 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/){:target="_blank"}** 영상을
 참고로 하여 작성된 포스팅입니다.

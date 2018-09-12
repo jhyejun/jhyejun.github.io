@@ -18,7 +18,7 @@ description: mogakko record journal
 ---
 
 ## **식사**
-### 교대역 4번출구 일식당 **[수타우동 겐](https://store.naver.com/restaurants/detail?id=37797212)**<br>
+### 교대역 4번출구 일식당 **[수타우동 겐](https://store.naver.com/restaurants/detail?id=37797212){:target="_blank"}**<br>
 이번주는 우동 전문점이다.<br>
 뭔가 일식을 자주 먹는 느낌이 들긴 하는데 착각인가...<br>
 자리에 앉아 메뉴판을 보니 이번에는 새우튀김이 먹고 싶어서<br>
@@ -32,7 +32,7 @@ description: mogakko record journal
 <br>
 
 ## **카페**
-### 남부터미널역 1번출구 **[P268](https://store.naver.com/restaurants/detail?entry=plt&id=635105985&query=P268)**
+### 남부터미널역 1번출구 **[P268](https://store.naver.com/restaurants/detail?entry=plt&id=635105985&query=P268){:target="_blank"}**
 새로 들어오신 분의 추천에 따라서 새로운 카페에 가봤다.<br>
 되게 분위기도 좋고 가게도 이쁘고, 시끄럽지도 않아서 괜찮았다.<br>
 커피는 가게 이름이 들어간 **268 라떼**가 대표 메뉴인 것 같길래 시켜봤다.<br>
@@ -48,11 +48,11 @@ description: mogakko record journal
 ---
 
 ## **오늘 공부한 내용**
-### iOS 기초 공부를 위한 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/)** 수강
+### iOS 기초 공부를 위한 **[스탠포드 iOS 강의](https://www.inflearn.com/course/stanford-ios-한글자막-강의/){:target="_blank"}** 수강
 - 스위프트와 파운데이션 4 - Initialization (이전에 끝까지 하지 못한 파트 수강)
 - 스위프트와 파운데이션 5 - AnyObject, Plist, NSUserDefault
 
 <br>
 오늘 본 강의 내용에 대해서 따로 정리를 해서 포스팅을 했다.<br>
-[스위프트와 파운데이션 4 - Initialization](initialization)<br>
-[스위프트와 파운데이션 5 - AnyObject, Plist, NSUserDefault](anyobject-plist-nsuserdefault)<br>
+[스위프트와 파운데이션 4 - Initialization]({{ site.url }}/blog/initialization){:target="_blank"}<br>
+[스위프트와 파운데이션 5 - AnyObject, Plist, NSUserDefault]({{ site.url }}/blog/anyobject-plist-nsuserdefault){:target="_blank"}<br>
