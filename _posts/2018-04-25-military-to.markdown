@@ -3,9 +3,9 @@ title: ":man: 병.티.확 - 병역특례 티오 확인"
 layout: post
 date: 2018-04-25 19:45
 tag:
-- project
-- application
-- ios
+- Project
+- Application
+- iOS
 projects: true
 hidden: false
 description: "Apps to check military service exemption companies and military service exception TO."

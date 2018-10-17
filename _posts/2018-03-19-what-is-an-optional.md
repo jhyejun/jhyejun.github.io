@@ -5,7 +5,7 @@ hidden: false
 date: 2018-03-19 23:12
 image: "/assets/images/markdown.jpg"
 tag:
-- swift
+- Swift
 star: true
 category: blog
 author: jhyejun

@@ -4,7 +4,7 @@ layout: post
 hidden: false
 date: 2018-04-25 20:11
 tag:
-- project review
+- Project Review
 star: true
 category: blog
 author: jhyejun

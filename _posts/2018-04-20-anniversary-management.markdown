@@ -3,9 +3,9 @@ title: ":calendar: 기념일 관리 앱"
 layout: post
 date: 2018-04-20 21:25
 tag:
-- project
-- application
-- ios
+- Project
+- Application
+- iOS
 projects: true
 hidden: false
 description: "Apps that manage the anniversaries of people in your contacts"

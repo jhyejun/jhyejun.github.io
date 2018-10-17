@@ -6,7 +6,7 @@ date: 2018-03-05 17:34
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- swift
+- Swift
 star: true
 category: blog
 author: jhyejun
