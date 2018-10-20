@@ -2,7 +2,7 @@
 title: "[Xcode] 날짜와 카운트를 이용한 빌드 번호 스크립트"
 layout: post
 hidden: true
-date: 2018-10-19 22:39
+date: 2018-10-20 22:39
 tag:
 - Xcode
 - Build Number
