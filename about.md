@@ -9,7 +9,7 @@ layout: page
 {% include social-links.html %}
 
 
-**Name** : 장혜준 (Jang Hyejun)
+**Name** : 장혜준 (Hyejun Jang)
 
 **Nickname** : 제이혜준 (jhyejun), 헤이준 (heyjun)
 

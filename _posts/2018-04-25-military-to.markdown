@@ -47,5 +47,5 @@ externalLink: false
 
 
 ## Author :octocat:
-**Jang Hyejun**
+**Hyejun Jang**
 - hyejun417@gmail.com :email:

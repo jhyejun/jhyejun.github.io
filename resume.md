@@ -3,7 +3,7 @@ title: Resume
 layout: page
 ---
 
-# Jang Hyejun - Résumé
+# Hyejun Jang - Résumé
 
 ## Personal Details
 
