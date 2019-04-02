@@ -22,6 +22,12 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+### Jekyll Customize ###
+_posts/
+private/
+.resume.md
+.about.md
+
 ### macOS ###
 # General
 .DS_Store

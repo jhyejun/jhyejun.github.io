@@ -13,9 +13,6 @@ layout: page
 #### Website
 - **<http://jhyejun.com>**
 
-#### Phone
-- **+82 10-6235-9442**
-
 ---
 
 ## Summary
