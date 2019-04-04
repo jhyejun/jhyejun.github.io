@@ -44,10 +44,15 @@ layout: page
 #### September 2018 -
 - **[Estmob](https://send-anywhere.com/ko/product){:target="_blank"}**<br>
 **iOS Developer**
-	- **iOS Application**
+	- **[sendanywhere iOS Application](https://send-anywhere.com/ko/file-transfer){:target="_blank"}**
 		- **Swift**
 		- **Objective-C**
 		- **[SnapKit](https://github.com/SnapKit/SnapKit){:target="_blank"}**
+**Web Developer**
+	- **frontend**
+		- **react**
+		- **redux**
+		- **css**
 
 #### December 2017 - August 2018
 - **Webtizen**<br>
@@ -90,8 +95,8 @@ layout: page
 	- **iOS Application**
 		- **Swift**
 
-#### April 2018 -
-- **[Check Military service exception TO Application]({{ site.url }}/project/military-to){:target="_blank"}**
+#### April 2018 - April 2018
+- **[Check Military service exception TO Application (Beta)]({{ site.url }}/project/military-to){:target="_blank"}**
 	- **iOS Application**
 		- **Swift**
 		- **[Then](https://github.com/devxoul/Then){:target="_blank"}**
