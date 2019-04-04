@@ -1,7 +1,7 @@
 ---
 title: "[IOS] 오토레이아웃 - ScrollView, StackView"
 layout: post
-hidden: false
+hidden: true
 date: 2019-04-04 20:57
 tag:
 - IOS
@@ -70,6 +70,49 @@ A B C 사람(뷰)들의 각 위치를 알 수 있고<br>
 **스택뷰는 여러개의 뷰를 하나의 뷰로 합쳐주는 뷰**이다.<br>
 합쳐졌던 여러개의 뷰는 스택뷰의 스택으로 존재한다.<br>
 
+스택뷰를 사용하게 되면 각각 뷰에 걸려있던 제약조건을<br>
+합치면서 뷰들을 관리하기가 쉬워진다.<br>
+
+스택뷰의 주요 프로퍼티는<br>
+distribution, alignment, spacing 가 있다.<br>
+
+하나씩 알아보면,
+
+**Distribution**
+- fill (각 내부 뷰들의 컨텐츠 사이즈. 단 누가 늘어나도 되는지 priority를 통해 정해져야함)
+![distribution_fill](/assets/images/blog/autolayout-scrollview-stackview/distribution_fill.png){: width="100%" height="50%"}
+- fillEqually (내부 뷰들의 크기를 같게)
+![distribution_fillEqually](/assets/images/blog/autolayout-scrollview-stackview/distribution_fillEqually.png){: width="100%" height="50%"}
+- fillProportionally (fill과 비슷한 거 같은데 잘 모르겠음)
+![distribution_fillProportionally](/assets/images/blog/autolayout-scrollview-stackview/distribution_fillProportionally.png){: width="100%" height="50%"}
+- equalSpacing (내부 뷰들 사이의 간격을 Spacing 값으로 설정)
+![distribution_equalSpacing](/assets/images/blog/autolayout-scrollview-stackview/distribution_equalSpacing.png){: width="100%" height="50%"}
+- equalCentering (내부 뷰들의 Center 간격을 같게 설정)
+![distribution_equalCentering](/assets/images/blog/autolayout-scrollview-stackview/distribution_equalCentering.png){: width="100%" height="50%"}
+
+<br>
+**Alignment**
+- fill (정렬없이 채우기)
+![alignment_fill](/assets/images/blog/autolayout-scrollview-stackview/alignment_fill.png){: width="100%" height="50%"}
+- leading (텍스트가 시작하는 쪽으로 정렬)
+![alignment_leading](/assets/images/blog/autolayout-scrollview-stackview/alignment_leading.png){: width="100%" height="50%"}
+- top (위쪽 정렬)
+![alignment_top](/assets/images/blog/autolayout-scrollview-stackview/alignment_top.png){: width="100%" height="50%"}
+- firstBaseline (첫째줄 텍스트의 아랫라인으로 정렬)
+![alignment_firstBaseline](/assets/images/blog/autolayout-scrollview-stackview/alignment_firstBaseline.png){: width="100%" height="50%"}
+- center (가운데 정렬)
+![alignment_center](/assets/images/blog/autolayout-scrollview-stackview/alignment_center.png){: width="100%" height="50%"}
+- trailing (텍스트가 끝나는 쪽으로 정렬)
+![alignment_trailing](/assets/images/blog/autolayout-scrollview-stackview/alignment_trailing.png){: width="100%" height="50%"}
+- bottom (아랫쪽 정렬))
+![alignment_bottom](/assets/images/blog/autolayout-scrollview-stackview/alignment_bottom.png){: width="100%" height="50%"}
+- lastBaseline (마지막줄 텍스트의 아랫라인으로 정렬)
+![alignment_lastBaseline](/assets/images/blog/autolayout-scrollview-stackview/alignment_lastBaseline.png){: width="100%" height="50%"}
+
+<br>
+**Spacing**
+스택뷰 내부의 뷰들간의 간격<br>
+
 <br>
 **스택뷰의 장점**
 - 조작이 쉽다.
@@ -79,4 +122,9 @@ A B C 사람(뷰)들의 각 위치를 알 수 있고<br>
 
 ---
 
+### 정리
+위에서 배운 스크롤뷰에서 콘텐츠 래퍼뷰를<br>
+스택뷰로 사용하면 더 효과적으로 사용할 수 있다.<br>
 
+
+**이 글은 '야곰님의 오토레이아웃 정복하기' 에서 배운 걸 정리하였습니다.**
