@@ -43,13 +43,12 @@ layout: page
 
 #### September 2018 -
 - **[Estmob](https://send-anywhere.com/ko/product){:target="_blank"}**<br>
-**iOS Developer**
+**Software Engineer**
 	- **[sendanywhere iOS Application](https://send-anywhere.com/ko/file-transfer){:target="_blank"}**
 		- **Swift**
 		- **Objective-C**
 		- **[SnapKit](https://github.com/SnapKit/SnapKit){:target="_blank"}**
-**Web Developer**
-	- **frontend**
+	- **Web FrontEnd**
 		- **react**
 		- **redux**
 		- **css**
