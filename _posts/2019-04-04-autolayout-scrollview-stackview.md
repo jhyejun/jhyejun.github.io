@@ -1,7 +1,7 @@
 ---
 title: "[IOS] 오토레이아웃 - ScrollView, StackView"
 layout: post
-hidden: true
+hidden: false
 date: 2019-04-04 20:57
 tag:
 - IOS
@@ -83,7 +83,7 @@ distribution, alignment, spacing 가 있다.<br>
 ![distribution_fill](/assets/images/blog/autolayout-scrollview-stackview/distribution_fill.png){: width="100%" height="50%"}
 - fillEqually (내부 뷰들의 크기를 같게)
 ![distribution_fillEqually](/assets/images/blog/autolayout-scrollview-stackview/distribution_fillEqually.png){: width="100%" height="50%"}
-- fillProportionally (fill과 비슷한 거 같은데 잘 모르겠음)
+- fillProportionally (각 뷰들의 콘텐츠 사이즈의 비율대로 스택뷰 사이즈를 비율 분할함)
 ![distribution_fillProportionally](/assets/images/blog/autolayout-scrollview-stackview/distribution_fillProportionally.png){: width="100%" height="50%"}
 - equalSpacing (내부 뷰들 사이의 간격을 Spacing 값으로 설정)
 ![distribution_equalSpacing](/assets/images/blog/autolayout-scrollview-stackview/distribution_equalSpacing.png){: width="100%" height="50%"}
@@ -128,3 +128,5 @@ distribution, alignment, spacing 가 있다.<br>
 
 
 **이 글은 '야곰님의 오토레이아웃 정복하기' 에서 배운 걸 정리하였습니다.**
+
+#### 잘못된 부분에 대한 피드백은 언제나 작성자에게 힘과 도움이 됩니다.
