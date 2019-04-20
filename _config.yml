@@ -9,7 +9,7 @@ description: jhyejun's blog
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile/2019-02-18.jpeg
+picture: assets/images/profile/2019-04-20.jpeg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -60,7 +60,7 @@ authors:
         name: Hyejun Jang
         bio: If you do nothing, you are not alive. Just Do It!
         external-image: false
-        picture: assets/images/profile/2019-02-18.jpeg
+        picture: assets/images/profile/2019-04-20.jpeg
         twitter: hyejun417
 
 # do you want a larger site? change the option below
