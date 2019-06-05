@@ -8,6 +8,9 @@ layout: page
 
 {% include social-links.html %}
 
+# Code is my face, Make a beautiful code
+<br>
+
 #### 이름
 - 장혜준 (Hyejun Jang)
 

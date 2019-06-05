@@ -23,11 +23,10 @@ layout: page
 - **RxSwift** -->
 
 #### Skills
-- **Coding Languages: C, Python, PHP, Swift**
-- **Web Frameworks: Django, HTML5**
+- **Coding Languages: C, Python, PHP, Swift, React, Javascript**
 - **Cloud Services: AWS**
 - **Mobile Development: iOS(Swift)**
-- **Databases: MySQL, SQLite**
+- **Databases: MySQL, SQLite, Realm**
 
 ---
 
@@ -44,14 +43,16 @@ layout: page
 #### September 2018 -
 - **[Estmob](https://send-anywhere.com/ko/product){:target="_blank"}**<br>
 **Software Engineer**
-	- **[sendanywhere iOS Application](https://send-anywhere.com/ko/file-transfer){:target="_blank"}**
+	- **[sendanywhere iOS Application](https://itunes.apple.com/app/apple-store/id596642855?pt=1862332&ct=website_download&mt=8){:target="_blank"}**
 		- **Swift**
 		- **Objective-C**
-		- **[SnapKit](https://github.com/SnapKit/SnapKit){:target="_blank"}**
-	- **Web FrontEnd**
-		- **react**
-		- **redux**
-		- **css**
+		- **UI development with code**
+	- **[Sendy Cloud Web FrontEnd](https://sendy.jp/cloud/){:target="_blank"}**
+		- **React**
+		- **Redux**
+		- **CSS**
+
+<br>
 
 #### December 2017 - August 2018
 - **Webtizen**<br>
@@ -61,15 +62,16 @@ layout: page
 		- **CDN**
 		- **Server maintenance**
 
+<br>
+
 #### December 2016 - November 2017
 - **ZIPBrothers**<br>
 **Software Engineer**
 	- **iOS Application**
 		- **Swift**
-		- **[Alamofire](https://github.com/Alamofire/Alamofire){:target="_blank"}**
-		- **[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON){:target="_blank"}**
-		- **[FSCalendar](https://github.com/WenchaoD/FSCalendar){:target="_blank"}**
-		- **[JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar){:target="_blank"}**
+		- **Storyboard**
+
+<br>
 
 #### September 2015 - August 2016
 - **Webtizen**<br>
@@ -89,21 +91,67 @@ layout: page
 
 ## Projects
 
-#### April 2018 - 
-- **Bus arrival notification Application**
+#### June 2019 - 
+- **[Bus arrival notification Application](https://github.com/jhyejun/WhenComing)**
 	- **iOS Application**
 		- **Swift**
 
+<br>
+
+#### February 2019 - May 2019
+- **[Sendy Cloud (Cloud Storage Service)](https://sendy.jp/cloud/){:target="_blank"}**
+	- **Web FrontEnd**
+		- **React**
+		- **Redux**
+		- **CSS**
+
+<br>
+
+#### February 2019 - April 2019
+- **[Check Military service exception TO Application (Beta 0.9)](https://github.com/jhyejun/Military-T.O){:target="_blank"}**
+	- **iOS Application**
+		- **Swift**
+		- **[ChameleonFramework/Swift](https://github.com/viccalexander/Chameleon)**
+		- **[Then](https://github.com/devxoul/Then)**
+		- **[SnapKit](https://github.com/SnapKit/SnapKit)**
+		- **[NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView)**
+		- **[AlignedCollectionViewFlowLayout](https://github.com/mischa-hildebrand/AlignedCollectionViewFlowLayout)**
+		- **[RxSwift](https://github.com/ReactiveX/RxSwift)**
+		- **[RxCocoa](https://github.com/ReactiveX/RxSwift/tree/master/RxCocoa)**
+		- **[RealmSwift](https://github.com/realm/realm-cocoa)**
+		- **[Firebase/Core](https://github.com/firebase/firebase-ios-sdk/tree/master/Firebase/Core)**
+		- **[Firebase/Database](https://github.com/firebase/firebase-ios-sdk/tree/master/Firebase/Database)**
+		- **[ObjectMapper](https://github.com/tristanhimmelman/ObjectMapper)**
+		- **[Carte](https://github.com/devxoul/Carte)**
+	- **[Project Review]({{ site.url }}/project/military-to){:target="_blank"}**
+
+<br>
+
+#### November 2018 - January 2019
+- **[sendanywhere iOS Application MusicPlayer Renewal](https://itunes.apple.com/app/apple-store/id596642855?pt=1862332&ct=website_download&mt=8)**
+	- **iOS Application**
+		- **Swift**
+		- **Objective C**
+		- **[SnapKit](https://github.com/SnapKit/SnapKit)**
+		- **[PinLayout](https://github.com/layoutBox/PinLayout)**
+		- **[RLMRealm](https://github.com/realm/realm-cocoa)**
+		- **[Async](https://github.com/duemunk/Async)**
+
+<br>
+
 #### April 2018 - April 2018
-- **[Check Military service exception TO Application (Beta)]({{ site.url }}/project/military-to){:target="_blank"}**
+- **[Check Military service exception TO Application (Beta 0.5)](https://github.com/jhyejun/Military-T.O){:target="_blank"}**
 	- **iOS Application**
 		- **Swift**
 		- **[Then](https://github.com/devxoul/Then){:target="_blank"}**
 		- **[CSV.swift](https://github.com/yaslab/CSV.swift){:target="_blank"}**
 		- **[RealmSwift](https://github.com/realm/realm-cocoa){:target="_blank"}**
+	- **[Project Review]({{ site.url }}/project/military-to){:target="_blank"}**
+
+<br>
 
 #### September 2017 - November 2017
-- **[Anniversary Management Application]({{ site.url }}/project/anniversary-management){:target="_blank"}**<br>
+- **Anniversary Management Application**<br>
 **Manage anniversaries of people in your address book**
 	- **iOS Application**
 		- **Swift**
@@ -112,6 +160,7 @@ layout: page
 		- **[JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar){:target="_blank"}**
 		- **[KakaoLink](https://developers.kakao.com/docs/android/kakaotalk-link){:target="_blank"}**
 		- **SQLite**
+	- **[Project Review]({{ site.url }}/project/anniversary-management){:target="_blank"}**
 
 ---
 
