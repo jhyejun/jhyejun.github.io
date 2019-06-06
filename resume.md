@@ -92,7 +92,7 @@ layout: page
 ## Projects
 
 #### June 2019 - 
-- **[Bus arrival notification Application](https://github.com/jhyejun/WhenComing)**
+- **Bus arrival notification Application**
 	- **iOS Application**
 		- **Swift**
 
@@ -108,7 +108,7 @@ layout: page
 <br>
 
 #### February 2019 - April 2019
-- **[Check Military service exception TO Application (Beta 0.9)](https://github.com/jhyejun/Military-T.O){:target="_blank"}**
+- **[Check Military service exception TO Application (Ver 0.9)]({{ site.url}}/project/military-to-ver-0.9){:target="_blank"}**
 	- **iOS Application**
 		- **Swift**
 		- **[ChameleonFramework/Swift](https://github.com/viccalexander/Chameleon)**
@@ -140,7 +140,7 @@ layout: page
 <br>
 
 #### April 2018 - April 2018
-- **[Check Military service exception TO Application (Beta 0.5)](https://github.com/jhyejun/Military-T.O){:target="_blank"}**
+- **[Check Military service exception TO Application (Ver 0.5)]({{ site.url}}/project/military-to-ver-0.5){:target="_blank"}**
 	- **iOS Application**
 		- **Swift**
 		- **[Then](https://github.com/devxoul/Then){:target="_blank"}**
