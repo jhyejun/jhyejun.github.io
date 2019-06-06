@@ -1,5 +1,5 @@
 ---
-title: ":man: 병.티.확 - 병역특례 티오 확인"
+title: ":man: 병티확 - 병역특례 티오 확인 (Ver 0.5)"
 layout: post
 date: 2018-04-25 19:45
 tag:
@@ -14,7 +14,7 @@ author: jhyejun
 externalLink: false
 ---
 
-# :man: 병.티.확 - 병역특례 티오 확인
+# :man: 병티확 - 병역특례 티오 확인
 병역특례 업체 및 병역특례 업체의 배정된 현역 티오 확인하는 어플
 
 
@@ -27,7 +27,7 @@ externalLink: false
 
 
 ## Concept
-![Screenshot](/assets/images/project/military-to/screenshot-slide.png)
+![Screenshot](/assets/images/project/military-to/screenshot-slide-ver-0.5.png)
 
 - 병역특례 업체들은 `TableView` 를 통해 나열됩니다.
 - `SearchBar` 를 통해 병역특례 업체를 검색할 수 있습니다.
@@ -44,6 +44,11 @@ externalLink: false
 ## Update
 - 0.5 (2018.04.25)
     - 기본적인 기능 개발 완료, 기획과 디자인 추가 보강해서 릴리즈 예정
+
+
+## Review
+- 0.5 (2018.04.25)
+    - ['병티확 - 병역특례 티오 확인' 프로젝트 1차 리뷰]({{ site.url }}/blog/review-military-to-ver-0.5){:target="_blank"}
 
 
 ## Author :octocat:
