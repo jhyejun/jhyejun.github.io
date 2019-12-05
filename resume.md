@@ -41,7 +41,7 @@ layout: page
 ## Work Experience
 
 #### August 2019 - Now
-- **[Upbit](https://upbit.com){:target="_blank"}**<br>
+- **[Dunamu](https://dunamu.com){:target="_blank"}**<br>
 **Software Engineer**
 	- **[Upbit iOS Application](https://apps.apple.com/kr/app/업비트-가장-신뢰받는-암호화폐-거래소/id1256371195){:target="_blank"}**
 		- **Swift**
