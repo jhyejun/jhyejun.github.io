@@ -25,7 +25,7 @@ layout: page
 #### Skills
 - **Coding Languages: C, Python, PHP, Swift, React, Javascript**
 - **Cloud Services: AWS**
-- **Mobile Development: iOS(Swift)**
+- **Mobile Development: iOS(Swift), RxSwift, RxFlow**
 - **Databases: MySQL, SQLite, Realm**
 
 ---
@@ -40,7 +40,21 @@ layout: page
 
 ## Work Experience
 
-#### September 2018 -
+#### August 2019 - Now
+- **[Upbit](https://upbit.com){:target="_blank"}**<br>
+**Software Engineer**
+	- **[Upbit iOS Application](https://apps.apple.com/kr/app/업비트-가장-신뢰받는-암호화폐-거래소/id1256371195){:target="_blank"}**
+		- **Swift**
+		- **RxSwift**
+		- **RxFlow**
+	- **[Upbit Global iOS Application](https://apps.apple.com/kr/app/upbit-global-crypto-exchange/id1439527412){:target="_blank"}**
+		- **Swift**
+		- **RxSwift**
+		- **RxFlow**
+
+<br>
+
+#### September 2018 - August 2019
 - **[Estmob](https://send-anywhere.com/ko/product){:target="_blank"}**<br>
 **Software Engineer**
 	- **[sendanywhere iOS Application](https://itunes.apple.com/app/apple-store/id596642855?pt=1862332&ct=website_download&mt=8){:target="_blank"}**
