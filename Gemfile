@@ -7,3 +7,4 @@ gem 'html-proofer'
 gem "rack", ">= 2.0.6"
 gem 'rack-protection', '~> 2.0.0'
 gem 'yajl-ruby', '~> 1.3.1'
+gem 'kramdown', '>= 2.3.0'
